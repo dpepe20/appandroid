@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        android:bac
+        <item
+            android:id="@+id/nav_inicio"
+            android:checkable="false"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_reporte"
+            android:checkable="false"
+            android:icon="@drawable/documento_preiser"
+            android:title="Generar Reportes" />
+        <item
+            android:id="@+id/nav_consultar_reportes"
+            android:checkable="false"
+            android:icon="@drawable/consultar_reportes"
+            android:title="Consultar Prestamos" />
+
+        <item
+            android:id="@+id/nav_consultar_elementos"
+            android:checkable="false"
+            android:icon="@drawable/buscar_preiser"
+            android:title="Consultar Elementos" />
+
+
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactenos"
+                android:icon="@drawable/contactenos_preiser"
+                android:title="Contactenos" />
+            <item
+                android:id="@+id/nav_acercade"
+                android:icon="@drawable/acercade_preiser"
+                android:title="Acerca de " />
+        </menu>
+    </item>
+
+</menu>
